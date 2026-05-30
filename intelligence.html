@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intelligence — Arabian Grid</title>
+    <meta name="description" content="Country primers, market briefs, and deal-tracker intelligence on renewable energy across MEA. Curated by Krishna Singh.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="alternate" type="application/rss+xml" title="Arabian Grid RSS" href="rss.xml">
+    <!-- Animation Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.18/dist/lenis.min.js"></script>
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-logo">
+            <span class="preloader-logo-mark">AG</span>
+            <span class="preloader-logo-text">ARABIAN GRID</span>
+        </div>
+        <div class="preloader-line-wrapper">
+            <div class="preloader-line"></div>
+        </div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="custom-cursor"></div>
+
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-mark">AG</span>
+                <span class="logo-text">ARABIAN GRID</span>
+            </a>
+            <div class="nav-search-wrapper">
+                <button class="search-toggle" aria-label="Toggle search">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                </button>
+                <div class="nav-search-dropdown">
+                    <input type="text" id="site-search" placeholder="Search briefs, countries, topics...">
+                    <div id="search-results"></div>
+                </div>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="intelligence.html" class="active">Intelligence</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <span class="page-tag">Intelligence Library</span>
+            <h1>Market briefs, country primers, and deal intelligence.</h1>
+            <p class="page-intro">I write these for myself first. Then I share them. Every piece starts with a question I could not answer from a press release or a headline. Each brief takes 10–20 hours of source verification and cross-referencing before it becomes a post.</p>
+        </div>
+    </header>
+
+    <section class="section filter-section">
+        <div class="container">
+            <div class="filter-bar">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="solar">Solar</button>
+                <button class="filter-btn" data-filter="bess">BESS</button>
+                <button class="filter-btn" data-filter="hydrogen">Hydrogen</button>
+                <button class="filter-btn" data-filter="regulatory">Regulatory</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section library-section">
+        <div class="container">
+            <div class="brief-grid">
+                <article class="brief-card" data-tags="solar hydrogen regulatory" id="angola">
+                    <div class="brief-meta">
+                        <span class="brief-country">Angola</span>
+                        <span class="brief-date">May 2026</span>
+                    </div>
+                    <h3 class="brief-title">Angola: The Renewable Energy Market Most People Are Sleeping On</h3>
+                    <p class="brief-excerpt">A 16-page executive study distilled into 8 slides. Covers resource potential, Angola Energia 2025 targets, the 600 MW green hydrogen export project, Law 6/25 regulatory opening, and the $23 billion investment gap.</p>
+                    <div class="brief-stats">
+                        <span><strong>16.3 GW</strong> solar potential</span>
+                        <span><strong>$23B</strong> investment required</span>
+                    </div>
+                    <div class="brief-tags">
+                        <span class="tag">Solar</span>
+                        <span class="tag">Hydrogen</span>
+                        <span class="tag">Regulatory</span>
+                    </div>
+                    <a href="assets/LinkedIn_Carousel_Angola_RE.pdf" class="brief-link" target="_blank">Download PDF &rarr;</a>
+                </article>
+
+                <article class="brief-card" data-tags="solar hydrogen regulatory" id="algeria">
+                    <div class="brief-meta">
+                        <span class="brief-country">Algeria</span>
+                        <span class="brief-date">June 2026</span>
+                    </div>
+                    <h3 class="brief-title">Algeria: The 446 MW Reality Check and the $23B Path to 15 GW</h3>
+                    <p class="brief-excerpt">End-2025 installed renewable capacity is 446 MW — not the 880 MW commonly cited in press releases. The gap between announced and operational projects is the story. 2.6 GW is under construction, 1.48 GW commissions by August 2026. FIT rates corrected: solar PV at 15.94 DZD/kWh for 1–5 MW projects. Hydrogen target: ~40 TWh/year by 2040 via the SoutH2 Corridor to Europe.</p>
+                    <div class="brief-stats">
+                        <span><strong>446 MW</strong> verified installed</span>
+                        <span><strong>2.6 GW</strong> under construction</span>
+                    </div>
+                    <div class="brief-tags">
+                        <span class="tag">Solar</span>
+                        <span class="tag">Hydrogen</span>
+                        <span class="tag">Regulatory</span>
+                    </div>
+                    <a href="#" class="brief-link">Read the brief &rarr;</a>
+                </article>
+
+                <article class="brief-card" data-tags="bess gcc">
+                    <div class="brief-meta">
+                        <span class="brief-country">UAE / GCC</span>
+                        <span class="brief-date">June 2026</span>
+                    </div>
+                    <h3 class="brief-title">The BESS Surge: Why 2026 Is the Inflection Year for Battery Storage in the Gulf</h3>
+                    <p class="brief-excerpt">EWEC's 1.5 GW Al Ajban tender is the largest standalone battery procurement in MENA history. Masdar has a 5 GW BESS pipeline across UAE, Saudi Arabia, and Morocco. DEWA's 1.2 GW Hassyan storage project and Qatar's 400 MW BESS mandate signal the shift from solar-plus-storage to merchant battery economics.</p>
+                    <div class="brief-stats">
+                        <span><strong>1.5 GW</strong> Al Ajban tender</span>
+                        <span><strong>5 GW</strong> Masdar pipeline</span>
+                    </div>
+                    <div class="brief-tags">
+                        <span class="tag">BESS</span>
+                        <span class="tag">GCC</span>
+                    </div>
+                    <a href="#" class="brief-link">Read the brief &rarr;</a>
+                </article>
+
+                <article class="brief-card" data-tags="solar regulatory">
+                    <div class="brief-meta">
+                        <span class="brief-country">Qatar</span>
+                        <span class="brief-date">June 2026</span>
+                    </div>
+                    <h3 class="brief-title">Qatar Solar EPC: The Samsung C&T Monopoly and How to Break Into the Market</h3>
+                    <p class="brief-excerpt">Qatar's utility-scale solar uses the EPC model — not IPP. Samsung C&T has won every major contract. Kahramaa Grade A licensing is the gate. What foreign EPCs actually need to know about market entry.</p>
+                    <div class="brief-stats">
+                        <span><strong>800 MW</strong> Al Kharsaah operational</span>
+                        <span><strong>2-3 GW</strong> pipeline to 2030</span>
+                    </div>
+                    <div class="brief-tags">
+                        <span class="tag">Solar</span>
+                        <span class="tag">Regulatory</span>
+                    </div>
+                    <a href="#" class="brief-link">Read the brief &rarr;</a>
+                </article>
+
+                <article class="brief-card" data-tags="hydrogen">
+                    <div class="brief-meta">
+                        <span class="brief-country">KSA</span>
+                        <span class="brief-date">June 2026</span>
+                    </div>
+                    <h3 class="brief-title">Saudi Arabia's Hydrogen Corridor: NEOM, SPARK, and the $5B Question</h3>
+                    <p class="brief-excerpt">NEOM Green Hydrogen: the world's largest 2.2 GW electrolyser, backed by ACWA Power, Air Products, and NEOM. $5B+ CAPEX. First ammonia exports targeted for 2026. But the regulatory vacuum — no hydrogen-specific IPP framework, no offtake guarantees, no carbon credit mechanism — means project finance is still balance-sheet backed. The SPARK energy city and Jazan Economic City are the next hubs.</p>
+                    <div class="brief-stats">
+                        <span><strong>2.2 GW</strong> NEOM electrolyser</span>
+                        <span><strong>$5B+</strong> total CAPEX</span>
+                    </div>
+                    <div class="brief-tags">
+                        <span class="tag">Hydrogen</span>
+                        <span class="tag">KSA</span>
+                    </div>
+                    <a href="#" class="brief-link">Read the brief &rarr;</a>
+                </article>
+
+                <article class="brief-card" data-tags="solar">
+                    <div class="brief-meta">
+                        <span class="brief-country">Bahrain</span>
+                        <span class="brief-date">June 2026</span>
+                    </div>
+                    <h3 class="brief-title">Bahrain Steel 110 MWp: What a Landmark C&amp;I Solar Deal Teaches About the Gulf</h3>
+                    <p class="brief-excerpt">Bahrain Steel's 110 MWp hybrid solar project — 85 MWp ground-mounted, 25 MWp rooftop — is the largest C&amp;I solar installation in Bahrain. Developed by TotalEnergies and Noor Energy under a 25-year PPA with long-term O&amp;M. The deal structure: no subsidy, no green certificate, just pure grid parity economics at ~$0.045/kWh LCOE. A template for industrial offtakers across the GCC.</p>
+                    <div class="brief-stats">
+                        <span><strong>110 MWp</strong> hybrid capacity</span>
+                        <span><strong>25-year</strong> PPA term</span>
+                    </div>
+                    <div class="brief-tags">
+                        <span class="tag">Solar</span>
+                        <span class="tag">GCC</span>
+                    </div>
+                    <a href="#" class="brief-link">Read the brief &rarr;</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section methodology-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Methodology</span>
+                <h2>How these briefs are built</h2>
+            </div>
+            <div class="method-grid">
+                <div class="method-card">
+                    <div class="method-number">01</div>
+                    <h4>Source Verification</h4>
+                    <p>Every data point is traced to its origin: government gazettes, IRENA databases, multilateral reports, or direct company disclosures. AI training data is never treated as a primary source.</p>
+                </div>
+                <div class="method-card">
+                    <div class="method-number">02</div>
+                    <h4>Cross-Reference</h4>
+                    <p>Key statistics are verified across at least two independent sources. Where sources conflict, the discrepancy is noted and the most recent or authoritative source is cited.</p>
+                </div>
+                <div class="method-card">
+                    <div class="method-number">03</div>
+                    <h4>Executive Distillation</h4>
+                    <p>The final brief is what I would send to a board: enough context to understand the landscape, enough precision to make a decision, and enough honesty to surface the risks.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <span class="logo-mark">AG</span>
+                    <span class="logo-text">ARABIAN GRID</span>
+                    <p class="footer-tagline">Decision-grade intelligence on MEA renewable energy markets.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigate</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="intelligence.html">Intelligence</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="https://linkedin.com/in/krishna-singh-13421864" target="_blank">LinkedIn</a></li>
+                        <li><a href="mailto:Krishnasingh.mea@gmail.com">Email</a></li>
+                        <li><a href="rss.xml" target="_blank">RSS Feed</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Arabian Grid. Curated by Krishna Singh. Dubai, UAE.</p>
+            </div>
+        </div>
+    </footer>
+
+        <script src="js/animations.js"></script>
+</body>
+</html>

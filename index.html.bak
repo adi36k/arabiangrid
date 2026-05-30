@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arabian Grid — MEA Renewable Energy Intelligence</title>
+    <meta name="description" content="Decision-grade market intelligence on renewable energy, solar, BESS, and green hydrogen across the Middle East and Africa. Curated by Krishna Singh, Chief Business Officer.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-mark">AG</span>
+                <span class="logo-text">ARABIAN GRID</span>
+            </a>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="intelligence.html">Intelligence</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <p class="hero-label">Market Intelligence &middot; Strategy &middot; Deal Flow</p>
+            <h1>The renewable energy transition in MEA — distilled for decision-makers.</h1>
+            <p class="hero-sub">Weekly briefs, country primers, and deal-tracker intelligence on solar, BESS, and green hydrogen across the Middle East and Africa. No noise. No consultant decks. Just what matters.</p>
+            <div class="hero-cta">
+                <a href="intelligence.html" class="btn btn-primary">Explore Intelligence</a>
+                <a href="about.html" class="btn btn-ghost">About the Author</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </header>
+
+    <section class="section kpi-section">
+        <div class="container">
+            <div class="kpi-grid">
+                <div class="kpi-card">
+                    <div class="kpi-number">1,500<span class="kpi-unit">MW</span></div>
+                    <div class="kpi-label">Pipeline Managed</div>
+                </div>
+                <div class="kpi-card">
+                    <div class="kpi-number">300<span class="kpi-unit">%</span></div>
+                    <div class="kpi-label">Revenue Growth Delivered</div>
+                </div>
+                <div class="kpi-card">
+                    <div class="kpi-number">14<span class="kpi-unit">+</span></div>
+                    <div class="kpi-label">Years in Renewable Energy</div>
+                </div>
+                <div class="kpi-card">
+                    <div class="kpi-number">8<span class="kpi-unit"></span></div>
+                    <div class="kpi-label">Countries Active</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section featured-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Featured Brief</span>
+                <h2>Latest Intelligence</h2>
+            </div>
+            <div class="brief-grid">
+                <article class="brief-card brief-featured">
+                    <div class="brief-meta">
+                        <span class="brief-country">Angola</span>
+                        <span class="brief-date">May 2026</span>
+                    </div>
+                    <h3 class="brief-title">Angola: The Renewable Energy Market Most People Are Sleeping On</h3>
+                    <p class="brief-excerpt">Sixteen gigawatts of solar potential. Eighteen gigawatts of hydropower. Thirty percent electrification. And a regulatory door that just opened to private investors for the first time in thirty years.</p>
+                    <div class="brief-tags">
+                        <span class="tag">Solar</span>
+                        <span class="tag">Hydrogen</span>
+                        <span class="tag">Regulatory</span>
+                    </div>
+                    <a href="intelligence.html#angola" class="brief-link">Read the brief &rarr;</a>
+                </article>
+                <article class="brief-card">
+                    <div class="brief-meta">
+                        <span class="brief-country">GCC</span>
+                        <span class="brief-date">Coming Soon</span>
+                    </div>
+                    <h3 class="brief-title">The BESS Surge: Why 2026 Is the Inflection Year for Battery Storage in the Gulf</h3>
+                    <p class="brief-excerpt">EWEC's 1.5 GW Al Ajban tender, Masdar's 5 GW pipeline, and the regulatory shifts that are turning BESS from a backup plan into a primary revenue stream.</p>
+                    <div class="brief-tags">
+                        <span class="tag">BESS</span>
+                        <span class="tag">GCC</span>
+                    </div>
+                    <span class="brief-link disabled">Coming soon</span>
+                </article>
+                <article class="brief-card">
+                    <div class="brief-meta">
+                        <span class="brief-country">North Africa</span>
+                        <span class="brief-date">Coming Soon</span>
+                    </div>
+                    <h3 class="brief-title">Algeria's Green Hydrogen Bet: Infrastructure, Incentives, and the European Offtake Pipeline</h3>
+                    <p class="brief-excerpt">Forty terawatt-hours per year by 2040. FIT rates at 15.94 DZD/kWh. A $972 million Chinese-built facility. What the numbers actually mean for developers.</p>
+                    <div class="brief-tags">
+                        <span class="tag">Hydrogen</span>
+                        <span class="tag">Algeria</span>
+                    </div>
+                    <span class="brief-link disabled">Coming soon</span>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section cta-section">
+        <div class="container">
+            <div class="cta-box">
+                <h2>Get weekly intelligence in your inbox.</h2>
+                <p>One email every Tuesday. Five minutes to read. What happened, what it means, and what to watch next.</p>
+                <form class="subscribe-form" onsubmit="event.preventDefault(); alert('Thank you — this is a demo form. Connect via the Contact page to express interest.');">
+                    <input type="email" placeholder="your@email.com" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+                <p class="form-note">No spam. No sponsored content. Unsubscribe anytime.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section about-teaser">
+        <div class="container">
+            <div class="teaser-grid">
+                <div class="teaser-image">
+                    <div class="image-placeholder">
+                        <span>Krishna Singh</span>
+                    </div>
+                </div>
+                <div class="teaser-text">
+                    <span class="section-tag">About the Author</span>
+                    <h2>I have spent 14 years turning technical understanding into commercial outcomes.</h2>
+                    <p>From sizing solar arrays in Surat to negotiating PPAs in Bahrain, my career has been built on one idea: the person who understands both the technology and the money is the one who shapes the market.</p>
+                    <p>Arabian Grid is where I share what I see — not as a consultant, but as someone still in the arena.</p>
+                    <a href="about.html" class="btn btn-ghost">Read the full story &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <span class="logo-mark">AG</span>
+                    <span class="logo-text">ARABIAN GRID</span>
+                    <p class="footer-tagline">Decision-grade intelligence on MEA renewable energy markets.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigate</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="intelligence.html">Intelligence</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="https://linkedin.com/in/krishna-singh-13421864" target="_blank">LinkedIn</a></li>
+                        <li><a href="mailto:Krishnasingh.mea@gmail.com">Email</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Arabian Grid. Curated by Krishna Singh. Dubai, UAE.</p>
+                <p>All intelligence is for informational purposes and does not constitute investment advice.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact — Arabian Grid</title>
+    <meta name="description" content="Get in touch with Krishna Singh for market intelligence, partnerships, or CBO/GM/Director opportunities in MEA renewable energy.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-mark">AG</span>
+                <span class="logo-text">ARABIAN GRID</span>
+            </a>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="intelligence.html">Intelligence</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <span class="page-tag">Contact</span>
+            <h1>Let's talk markets, deals, or the next chapter.</h1>
+        </div>
+    </header>
+
+    <section class="section contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Ways to reach me</h3>
+                    
+                    <div class="contact-method">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-detail">
+                            <span class="contact-label">Email</span>
+                            <a href="mailto:Krishnasingh.mea@gmail.com" class="contact-value">Krishnasingh.mea@gmail.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <div class="contact-icon">💼</div>
+                        <div class="contact-detail">
+                            <span class="contact-label">LinkedIn</span>
+                            <a href="https://linkedin.com/in/krishna-singh-13421864" target="_blank" class="contact-value">linkedin.com/in/krishna-singh-13421864</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <div class="contact-icon">📱</div>
+                        <div class="contact-detail">
+                            <span class="contact-label">Phone</span>
+                            <span class="contact-value">+971 54 371 4532</span>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-detail">
+                            <span class="contact-label">Location</span>
+                            <span class="contact-value">Dubai, United Arab Emirates</span>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-note">
+                        <p>I respond to every message within 24 hours. If you are reaching out about a CBO, GM, or Director-level opportunity, please mention the scope and timeline in your first message.</p>
+                    </div>
+                </div>
+                
+                <div class="contact-form-wrapper">
+                    <h3>Send a message</h3>
+                    <form class="contact-form" action="#" method="POST" onsubmit="event.preventDefault(); alert('Thank you for your message. This is a static demo site — please use the email or LinkedIn links to reach Krishna directly.');">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject">
+                                <option value="opportunity">Career Opportunity</option>
+                                <option value="partnership">Business Partnership</option>
+                                <option value="media">Media / Speaking Inquiry</option>
+                                <option value="intelligence">Intelligence / Research Question</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section availability-section">
+        <div class="container">
+            <div class="availability-card">
+                <div class="availability-status">
+                    <span class="status-dot"></span>
+                    <span class="status-text">Open to Opportunities</span>
+                </div>
+                <p>I am actively exploring CBO, GM, and Director-level mandates in the UAE and GCC renewable energy sector. Solar, BESS, green hydrogen, or advisory — I am open to conversations where the scope matches my experience and the ambition matches mine.</p>
+                <div class="availability-tags">
+                    <span class="tag">Chief Business Officer</span>
+                    <span class="tag">General Manager</span>
+                    <span class="tag">Director — BD / Strategy</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <span class="logo-mark">AG</span>
+                    <span class="logo-text">ARABIAN GRID</span>
+                    <p class="footer-tagline">Decision-grade intelligence on MEA renewable energy markets.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigate</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="intelligence.html">Intelligence</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="https://linkedin.com/in/krishna-singh-13421864" target="_blank">LinkedIn</a></li>
+                        <li><a href="mailto:Krishnasingh.mea@gmail.com">Email</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Arabian Grid. Curated by Krishna Singh. Dubai, UAE.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
