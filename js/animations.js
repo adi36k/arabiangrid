@@ -449,12 +449,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 navbar.classList.remove('navbar-scrolled');
             }
             
-            if (currentScroll > lastScroll && currentScroll > 200) {
-                navbar.classList.add('navbar-hidden');
-            } else {
-                navbar.classList.remove('navbar-hidden');
-            }
-            
             lastScroll = currentScroll;
         }, { passive: true });
     }
