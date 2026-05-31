@@ -104,7 +104,7 @@
                         <div class="contact-icon">📧</div>
                         <div class="contact-detail">
                             <span class="contact-label">Email</span>
-                            <a href="mailto:Krishnasingh.mea@gmail.com" class="contact-value">Krishnasingh.mea@gmail.com</a>
+                            <a href="mailto:info@arabiangrid.com" class="contact-value">info@arabiangrid.com</a>
                         </div>
                     </div>
                     
@@ -139,7 +139,9 @@
                 
                 <div class="contact-form-wrapper">
                     <h3>Send a message</h3>
-                    <form class="contact-form" name="contact" method="POST" action="mailto:Krishnasingh.mea@gmail.com" method="GET" enctype="text/plain" onsubmit="event.preventDefault(); var subj=this.subject.options[this.subject.selectedIndex].text; window.location.href='mailto:Krishnasingh.mea@gmail.com?subject='+encodeURIComponent(subj)+'&body='+encodeURIComponent('Name: '+this.name.value+'\nEmail: '+this.email.value+'\n\n'+this.message.value);">
+                    <form class="contact-form" name="contact" action="https://formspree.io/f/FORM_ID_CONTACT" method="POST">
+                    <input type="hidden" name="_subject" value="New contact form submission from arabiangrid.com">
+                    <input type="hidden" name="_next" value="https://arabiangrid.com/contact-success.html">
                         <div class="form-group">
                             <label for="name">Name</label>
                             <input type="text" id="name" name="name" required autocomplete="name">
@@ -196,7 +198,7 @@
                     <h4>Connect</h4>
                     <ul>
                         <li><a href="https://linkedin.com/in/krishna-singh-13421864" target="_blank">LinkedIn</a></li>
-                        <li><a href="mailto:Krishnasingh.mea@gmail.com">Email</a></li>
+                        <li><a href="mailto:info@arabiangrid.com">Email</a></li>
                         <li><a href="rss.xml" target="_blank">RSS Feed</a></li>
                     </ul>
                 </div>
