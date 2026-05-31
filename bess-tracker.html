@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GCC BESS Tender Tracker &mdash; Q2 2026 &mdash; Arabian Grid</title>
+    <meta name="description" content="Active BESS tenders across the GCC: EWEC Al Ajban, DEWA Hassyan, Masdar pipeline, Qatar mandate, Saudi NEOM storage, Oman Ibri II. Capacity, deadlines, offtaker, and procurement model.">
+    <link rel="stylesheet" href="css/style.css?v=202605310412">
+    <link rel="alternate" type="application/rss+xml" title="Arabian Grid RSS" href="rss.xml">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.18/dist/lenis.min.js"></script>
+    <link rel="canonical" href="https://arabiangrid.com/bess-tracker.html">
+    <link rel="preload" href="css/style.css?v=202605310412" as="style">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="favicon.png">
+    <meta property="og:title" content="GCC BESS Tender Tracker &mdash; Q2 2026 &mdash; Arabian Grid">
+    <meta property="og:description" content="Active BESS tenders across the GCC: EWEC Al Ajban, DEWA Hassyan, Masdar pipeline, Qatar mandate, Saudi NEOM storage, Oman Ibri II.">
+    <meta property="og:image" content="https://arabiangrid.com/images/og-image.jpg">
+    <meta property="og:url" content="https://arabiangrid.com/bess-tracker.html">
+    <meta property="og:type" content="article">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GCC BESS Tender Tracker &mdash; Q2 2026 &mdash; Arabian Grid">
+    <meta name="twitter:description" content="Active BESS tenders across the GCC: EWEC Al Ajban, DEWA Hassyan, Masdar pipeline, Qatar mandate, Saudi NEOM storage, Oman Ibri II.">
+    <meta name="twitter:image" content="https://arabiangrid.com/images/og-image.jpg">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <style>
+        .tracker-table { width: 100%; border-collapse: collapse; margin-top: 24px; font-size: 14px; }
+        .tracker-table th { background: var(--navy); color: var(--white); text-align: left; padding: 14px 16px; font-weight: 600; letter-spacing: 0.5px; }
+        .tracker-table td { padding: 14px 16px; border-bottom: 1px solid var(--border-light); color: var(--charcoal); }
+        .tracker-table tr:hover td { background: rgba(184,150,62,0.04); }
+        .tracker-table td strong { color: var(--navy); }
+        .tracker-tag { display: inline-block; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; padding: 4px 10px; border-radius: 4px; background: rgba(184,150,62,0.12); color: var(--navy); margin-right: 6px; }
+        .csv-download { margin-top: 24px; display: inline-block; color: var(--navy); font-weight: 800; font-size: 13px; letter-spacing: 1.2px; text-transform: uppercase; }
+    </style>
+</head>
+<body>
+    <div class="preloader">
+        <div class="preloader-logo">
+            <span class="preloader-logo-mark"><img src="images/logos/logo_ag_grid_mark.svg" alt="" aria-hidden="true"></span>
+            <span class="preloader-logo-text">ARABIAN GRID</span>
+        </div>
+        <div class="preloader-line-wrapper">
+            <div class="preloader-line"></div>
+        </div>
+    </div>
+    <div class="custom-cursor"></div>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-mark"><img src="images/logos/logo_ag_grid_mark.svg" alt="" aria-hidden="true"></span>
+                <span class="logo-text">ARABIAN GRID</span>
+            </a>
+            <div class="nav-search-wrapper">
+                <button class="search-toggle" aria-label="Toggle search">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                </button>
+                <div class="nav-search-dropdown">
+                    <input type="text" id="site-search" placeholder="Search briefs, countries, topics...">
+                    <div id="search-results"></div>
+                </div>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="intelligence.html">Intelligence</a></li>
+                <li><a href="policy-regulations.html">Policy &amp; Regulations</a></li>
+                <li><a href="resources.html" class="active">Resources</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header class="page-header">
+        <div class="container">
+            <span class="page-tag">Deal Tracker &middot; Q2 2026</span>
+            <h1>GCC BESS Tender Tracker &mdash; Q2 2026</h1>
+            <p class="page-intro">Active tenders, procurement models, capacities, and offtakers for battery energy storage across the Gulf. Updated June 2026.</p>
+        </div>
+    </header>
+    <section class="section">
+        <div class="container">
+            <table class="tracker-table">
+                <thead>
+                    <tr>
+                        <th>Project / Tender</th>
+                        <th>Market</th>
+                        <th>Capacity</th>
+                        <th>Duration</th>
+                        <th>Procurement Model</th>
+                        <th>Offtaker</th>
+                        <th>Status / RFP Deadline</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Al Ajban Standalone BESS</strong></td>
+                        <td><span class="tracker-tag">UAE</span></td>
+                        <td>1.5 GW</td>
+                        <td>4 hours (6 GWh)</td>
+                        <td>IPP with long-term offtake</td>
+                        <td>EWEC</td>
+                        <td>RFP closed; evaluation ongoing</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Hassyan Battery Storage</strong></td>
+                        <td><span class="tracker-tag">UAE</span></td>
+                        <td>1.2 GW</td>
+                        <td>4 hours (4.8 GWh)</td>
+                        <td>IPP (storage-as-capacity)</td>
+                        <td>DEWA</td>
+                        <td>Pre-qualification expected Q3 2026</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Masdar Multi-Site BESS Pipeline</strong></td>
+                        <td><span class="tracker-tag">UAE / KSA / Morocco</span></td>
+                        <td>5 GW (aggregate)</td>
+                        <td>2&ndash;4 hours</td>
+                        <td>Mixed (IPP + EPC)</td>
+                        <td>Masdar / Utility offtakers</td>
+                        <td>Pipeline; first tranche 2026</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Qatar National BESS Mandate</strong></td>
+                        <td><span class="tracker-tag">Qatar</span></td>
+                        <td>400 MW</td>
+                        <td>2 hours (800 MWh)</td>
+                        <td>EPC (Kahramaa-directed)</td>
+                        <td>Kahramaa</td>
+                        <td>Tender expected H2 2026</td>
+                    </tr>
+                    <tr>
+                        <td><strong>NEOM Grid Storage</strong></td>
+                        <td><span class="tracker-tag">KSA</span></td>
+                        <td>2 GW</td>
+                        <td>4 hours (8 GWh)</td>
+                        <td>EPC + IPP (NEOM-directed)</td>
+                        <td>NEOM / ACWA Power</td>
+                        <td>In procurement; awards expected 2027</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Ibri II Extension</strong></td>
+                        <td><span class="tracker-tag">Oman</span></td>
+                        <td>500 MW</td>
+                        <td>2 hours (1 GWh)</td>
+                        <td>IPP (OPWP procurement)</td>
+                        <td>OPWP / Oman Grid</td>
+                        <td>RFP expected Q4 2026</td>
+                    </tr>
+                </tbody>
+            </table>
+            <a href="bess-tracker.csv" class="csv-download" download>Download CSV &rarr;</a>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Analysis</span>
+                <h2>What the tracker tells us</h2>
+            </div>
+            <div class="policy-grid">
+                <article class="policy-card">
+                    <div class="policy-meta"><span>Trend</span><span>Scale</span></div>
+                    <h3>10+ GW of BESS is now in active procurement</h3>
+                    <p>The aggregate capacity in this tracker exceeds 10 GW. That makes 2026 the first year in which BESS procurement in the GCC rivals solar IPP procurement in scale.</p>
+                    <ul class="policy-list">
+                        <li>UAE leads with 2.7 GW of defined tenders.</li>
+                        <li>Saudi Arabia's pipeline is largest but least defined in timing.</li>
+                        <li>Qatar and Oman are following with smaller, state-directed programmes.</li>
+                    </ul>
+                </article>
+                <article class="policy-card">
+                    <div class="policy-meta"><span>Model</span><span>Shift</span></div>
+                    <h3>IPP is replacing EPC for standalone storage</h3>
+                    <p>The Al Ajban and Hassyan tenders use the IPP model, not EPC. This shifts risk to the developer/operator and creates long-term revenue visibility through capacity payments and ancillary service contracts.</p>
+                    <ul class="policy-list">
+                        <li>IPP model requires equity commitment and long-term O&amp;M capability.</li>
+                        <li>EPC model remains in Qatar and parts of NEOM where state ownership is preferred.</li>
+                        <li>Mixed models (Masdar) allow developers to choose their risk exposure.</li>
+                    </ul>
+                </article>
+                <article class="policy-card">
+                    <div class="policy-meta"><span>Duration</span><span>Technology</span></div>
+                    <h3>4-hour duration is becoming standard; longer durations emerging</h3>
+                    <p>Most tenders specify 4-hour duration (4:1 energy-to-power ratio). This aligns with daily peak-shaving economics. Longer durations (6&ndash;8 hours) are under evaluation for seasonal shifting and hydrogen integration.</p>
+                    <ul class="policy-list">
+                        <li>Lithium-ion dominates all current tenders.</li>
+                        <li>Flow batteries are in pilot for 6+ hour roles.</li>
+                        <li>Thermal storage is being evaluated for CSP hybrid plants.</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <span class="logo-mark"><img src="images/logos/logo_ag_grid_mark.svg" alt="" aria-hidden="true"></span>
+                    <span class="logo-text">ARABIAN GRID</span>
+                    <p class="footer-tagline">Decision-grade intelligence on MEA renewable energy markets.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Navigate</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="intelligence.html">Intelligence</a></li>
+                        <li><a href="policy-regulations.html">Policy &amp; Regulations</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="https://linkedin.com/in/krishna-singh-13421864" target="_blank">LinkedIn</a></li>
+                        <li><a href="mailto:Krishnasingh.mea@gmail.com">Email</a></li>
+                        <li><a href="rss.xml" target="_blank">RSS Feed</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Arabian Grid. Curated by Krishna Singh. Dubai, UAE.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/animations.js?v=202605310412"></script>
+</body>
+</html>

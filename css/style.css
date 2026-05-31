@@ -1,5 +1,5 @@
-/* ==========================================
-   ARABIAN GRID — Premium Animation Design
+﻿/* ==========================================
+   ARABIAN GRID â€” Premium Animation Design
    GSAP-powered scroll reveals, parallax,
    3D transforms, glassmorphism, gradients
    ========================================== */
@@ -58,22 +58,23 @@ body {
 /* ========== CUSTOM CURSOR ========== */
 .custom-cursor {
     position: fixed;
-    width: 12px;
-    height: 12px;
-    background: var(--gold);
+    width: 7px;
+    height: 7px;
+    background: rgba(30,58,95,0.72);
     border-radius: 50%;
     pointer-events: none;
     z-index: 99999;
-    mix-blend-mode: difference;
     transform: translate(-50%, -50%);
-    transition: width 0.3s ease, height 0.3s ease, background 0.3s ease;
+    box-shadow: 0 0 0 1px rgba(245,243,239,0.6);
+    transition: width 0.2s ease, height 0.2s ease, background 0.2s ease, border 0.2s ease, box-shadow 0.2s ease;
 }
 
 .custom-cursor.cursor-expanded {
-    width: 48px;
-    height: 48px;
-    background: rgba(184,150,62,0.3);
-    border: 2px solid var(--gold);
+    width: 22px;
+    height: 22px;
+    background: transparent;
+    border: 1px solid rgba(184,150,62,0.82);
+    box-shadow: 0 4px 14px rgba(30,58,95,0.12);
 }
 
 @media (pointer: coarse) {
@@ -167,7 +168,7 @@ body {
     box-shadow: 0 4px 30px rgba(30,58,95,0.08);
 }
 
-/* .navbar-hidden removed — navbar always visible */
+/* .navbar-hidden removed â€” navbar always visible */
 
 .nav-container {
     display: flex;
@@ -399,7 +400,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('../images/hero-bg.jpg') center center / cover no-repeat;
+    background: url('../images/hero-bg.webp') center center / cover no-repeat;
     z-index: 1;
 }
 
@@ -1543,7 +1544,7 @@ body {
 }
 
 .credentials-list li::before {
-    content: '→';
+    content: 'â†’';
     color: var(--gold);
     font-weight: 700;
     font-size: 14px;
