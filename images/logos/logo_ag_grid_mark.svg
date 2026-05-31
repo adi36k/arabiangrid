@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Arabian Grid AG monogram</title>
+  <desc id="desc">A navy square monogram with gold AG letters and subtle grid lines.</desc>
+  <rect width="128" height="128" fill="#1E3A5F"/>
+  <path d="M12 12H116V116H12Z" fill="none" stroke="#B8963E" stroke-width="4"/>
+  <path d="M38 12V116M64 12V116M90 12V116M12 38H116M12 64H116M12 90H116" stroke="#F5F3EF" stroke-width="1.5" opacity=".16"/>
+  <path d="M12 64H116M64 12V116" stroke="#B8963E" stroke-width="2" opacity=".38"/>
+  <text x="64" y="82" fill="#B8963E" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="800" text-anchor="middle" letter-spacing="-3">AG</text>
+  <path d="M103 24H116V37" fill="none" stroke="#F5F3EF" stroke-width="4" stroke-linecap="square"/>
+  <path d="M12 116H34" stroke="#B8963E" stroke-width="4" stroke-linecap="square"/>
+</svg>
