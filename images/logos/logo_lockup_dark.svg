@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" fill="#121B2B"/>
+  <rect x="64" y="176" width="160" height="160" fill="#B8963E" stroke="white" stroke-width="3"/>
+  <text x="144" y="292" font-family="Helvetica, Arial, sans-serif" font-weight="700" font-size="80" fill="white" text-anchor="middle">AG</text>
+  <text x="264" y="232" font-family="Helvetica, Arial, sans-serif" font-weight="700" font-size="52" fill="white" letter-spacing="4">ARABIAN</text>
+  <text x="264" y="296" font-family="Helvetica, Arial, sans-serif" font-weight="700" font-size="52" fill="white" letter-spacing="4">GRID</text>
+  <rect x="264" y="324" width="180" height="3" fill="#B8963E"/>
+  <text x="264" y="360" font-family="Helvetica, Arial, sans-serif" font-weight="400" font-size="20" fill="#B8963E" letter-spacing="2">MEA RENEWABLE ENERGY</text>
+</svg>
