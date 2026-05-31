@@ -2053,7 +2053,7 @@ body {
         top: 72px;
         left: 0;
         right: 0;
-        background: var(--glass-bg);
+        background: rgba(255,255,255,0.98);
         backdrop-filter: blur(20px);
         flex-direction: column;
         padding: 28px;
