@@ -166,9 +166,7 @@ body {
     box-shadow: 0 4px 30px rgba(30,58,95,0.08);
 }
 
-.navbar-hidden {
-    transform: translateY(-100%);
-}
+/* .navbar-hidden removed — navbar always visible */
 
 .nav-container {
     display: flex;
@@ -1995,4 +1993,13 @@ body {
         transition: none !important;
         scroll-behavior: auto !important;
     }
+}
+
+
+/* FORCE NAVBAR VISIBLE: overrides any cached JS hiding behavior */
+.navbar {
+    transform: translateY(0) !important;
+}
+.navbar-hidden {
+    transform: translateY(0) !important;
 }
