@@ -133,6 +133,12 @@ document.addEventListener('DOMContentLoaded', function() {
             tags: 'angola pdf download resource primer africa'
         },
         {
+            title: 'Policy & Regulations — DEWA, TAQA, Dubai, and Abu Dhabi',
+            url: 'policy-regulations.html',
+            snippet: 'Renewable energy policy, Shams Dubai, D33, TAQA ESG strategy, Abu Dhabi Clean Energy Target 2035, certificates, and energy netting.',
+            tags: 'policy regulations dewa taqa dubai abu dhabi shams d33 certificates energy netting'
+        },
+        {
             title: 'About Krishna Singh — Chief Business Officer',
             url: 'about.html',
             snippet: '14 years in renewable energy, pipeline management, PPA negotiation, MEA markets.',
