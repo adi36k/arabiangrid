@@ -27,7 +27,6 @@
 }
 
 /* ========== IMPORT FONTS ========== */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
 /* ========== RESET ========== */
 *, *::before, *::after {
@@ -49,7 +48,7 @@ body {
     background: var(--white);
     line-height: 1.6;
     overflow-x: hidden;
-    cursor: none;
+    /* cursor: none; removed for accessibility */
 }
 
 @media (pointer: coarse) {
@@ -1985,5 +1984,15 @@ body {
     }
     .resource-card {
         padding: 28px 24px;
+    }
+}
+
+
+/* Accessibility: respect reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation: none !important;
+        transition: none !important;
+        scroll-behavior: auto !important;
     }
 }

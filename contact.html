@@ -11,6 +11,42 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.18/dist/lenis.min.js"></script>
+
+    <link rel="canonical" href="https://arabiangrid.com/contact.html">
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" href="favicon.png">
+    <meta property="og:title" content="Contact — Arabian Grid">
+<meta property="og:description" content="Get in touch with Krishna Singh for market intelligence, partnerships, or CBO/GM/Director opportunities in MEA renewable energy.">
+<meta property="og:image" content="https://arabiangrid.com/images/og-image.jpg">
+<meta property="og:url" content="https://arabiangrid.com/contact.html">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Contact — Arabian Grid">
+<meta name="twitter:description" content="Get in touch with Krishna Singh for market intelligence, partnerships, or CBO/GM/Director opportunities in MEA renewable energy.">
+<meta name="twitter:image" content="https://arabiangrid.com/images/og-image.jpg">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Krishna Singh",
+  "jobTitle": "Chief Business Officer",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Arabian Grid"
+  },
+  "url": "https://arabiangrid.com/",
+  "sameAs": [
+    "https://linkedin.com/in/krishna-singh-13421864"
+  ],
+  "description": "14+ years in renewable energy across GCC, MENA and India. 1,500MW pipeline managed. CBO-level executive focused on solar, BESS, and green hydrogen."
+}
+</script>
+    <meta name="google-site-verification" content="sitemap">
+<link rel="sitemap" type="application/xml" title="Sitemap" href="sitemap.xml">
 </head>
 <body>
     <!-- Preloader -->
@@ -99,18 +135,15 @@
                 
                 <div class="contact-form-wrapper">
                     <h3>Send a message</h3>
-                    <form class="contact-form" name="contact" method="POST" netlify netlify-honeypot="bot-field" action="/contact-success.html">
-                        <p class="hidden">
-                            <label>Don't fill this out if you're human: <input name="bot-field" /></label>
-                        </p>
+                    <form class="contact-form" name="contact" method="POST" action="mailto:Krishnasingh.mea@gmail.com" method="GET" enctype="text/plain" onsubmit="event.preventDefault(); var subj=this.subject.options[this.subject.selectedIndex].text; window.location.href='mailto:Krishnasingh.mea@gmail.com?subject='+encodeURIComponent(subj)+'&body='+encodeURIComponent('Name: '+this.name.value+'\nEmail: '+this.email.value+'\n\n'+this.message.value);">
                         <div class="form-group">
                             <label for="name">Name</label>
-                            <input type="text" id="name" name="name" required>
+                            <input type="text" id="name" name="name" required autocomplete="name">
                         </div>
                         
                         <div class="form-group">
                             <label for="email">Email</label>
-                            <input type="email" id="email" name="email" required>
+                            <input type="email" id="email" name="email" required autocomplete="email">
                         </div>
                         
                         <div class="form-group">

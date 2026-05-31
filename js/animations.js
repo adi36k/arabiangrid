@@ -112,16 +112,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 ease: 'none'
             });
 
-            gsap.to('.hero::after', {
-                scrollTrigger: {
-                    trigger: '.hero',
-                    start: 'top top',
-                    end: 'bottom top',
-                    scrub: true
-                },
-                backgroundPosition: '0% 30%',
-                ease: 'none'
-            });
+            // REMOVED: gsap.to('.hero::after') — GSAP cannot animate CSS pseudo-elements
         }
 
         // Hero text reveal
