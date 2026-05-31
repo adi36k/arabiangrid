@@ -1,0 +1,10 @@
+# Next.js build metadata
+*.txt
+__next.*
+
+# Template assets
+file.svg
+globe.svg
+next.svg
+vercel.svg
+window.svg

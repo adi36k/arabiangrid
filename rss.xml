@@ -1,74 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0">
   <channel>
-    <title>Arabian Grid — MEA Renewable Energy Intelligence</title>
+    <title>Arabian Grid � MEA Renewable Energy Intelligence</title>
     <link>https://arabiangrid.com/</link>
-    <description>Decision-grade market intelligence on renewable energy, solar, BESS, and green hydrogen across the Middle East and Africa. Curated by Krishna Singh, Chief Business Officer.</description>
+    <description>Decision-grade market intelligence on renewable energy, solar, BESS, and green hydrogen across the Middle East and Africa.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Jun 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://arabiangrid.com/rss.xml" rel="self" type="application/rss+xml" />
-
+    <item>
+      <title>Algeria: The 446 MW Reality Check and the $23B Path to 15 GW</title>
+      <link>https://arabiangrid.com/brief-algeria.html</link>
+      <pubDate>Sun, 01 Jun 2026 00:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Angola: The Renewable Energy Market Most People Are Sleeping On</title>
-      <link>https://arabiangrid.com/intelligence.html#angola</link>
-      <guid isPermaLink="true">https://arabiangrid.com/intelligence.html#angola</guid>
-      <pubDate>Mon, 02 Jun 2026 00:00:00 +0000</pubDate>
-      <category>Solar</category>
-      <category>Hydrogen</category>
-      <category>Regulatory</category>
-      <description>A 16-page executive study distilled into 8 slides. Covers resource potential, Angola Energia 2025 targets, the 600 MW green hydrogen export project, Law 6/25 regulatory opening, and the $23 billion investment gap.</description>
+      <link>https://arabiangrid.com/brief-angola.html</link>
+      <pubDate>Thu, 01 May 2026 00:00:00 GMT</pubDate>
     </item>
-
-    <item>
-      <title>Algeria: RE Capacity, FIT Corrections, and the Hydrogen Infrastructure Play</title>
-      <link>https://arabiangrid.com/intelligence.html#algeria</link>
-      <guid isPermaLink="true">https://arabiangrid.com/intelligence.html#algeria</guid>
-      <pubDate>Mon, 02 Jun 2026 00:00:00 +0000</pubDate>
-      <category>Solar</category>
-      <category>Hydrogen</category>
-      <category>Regulatory</category>
-      <description>Installed renewable capacity at end-2025 is 446 MW — not 880 MW as commonly cited. 2.6 GW under construction, 1.48 GW commissioning by August 2026. FIT rates corrected: solar PV at 15.94 DZD/kWh (1–5 MW). Hydrogen targets ~40 TWh/year by 2040.</description>
-    </item>
-
     <item>
       <title>The BESS Surge: Why 2026 Is the Inflection Year for Battery Storage in the Gulf</title>
-      <link>https://arabiangrid.com/intelligence.html</link>
-      <guid isPermaLink="false">bess-surge-2026</guid>
-      <pubDate>Mon, 02 Jun 2026 00:00:00 +0000</pubDate>
-      <category>BESS</category>
-      <category>GCC</category>
-      <description>EWEC's 1.5 GW Al Ajban tender, Masdar's 5 GW pipeline, and the regulatory shifts that are turning BESS from a backup plan into a primary revenue stream. Brief in progress.</description>
+      <link>https://arabiangrid.com/brief-bess.html</link>
+      <pubDate>Sun, 01 Jun 2026 00:00:00 GMT</pubDate>
     </item>
-
-    <item>
-      <title>Qatar: EPC-Only Solar and the Kahramaa Licensing Gate</title>
-      <link>https://arabiangrid.com/intelligence.html</link>
-      <guid isPermaLink="false">qatar-epc-solar-kahramaa</guid>
-      <pubDate>Mon, 02 Jun 2026 00:00:00 +0000</pubDate>
-      <category>Solar</category>
-      <category>Regulatory</category>
-      <description>Qatar's utility-scale solar uses the EPC model — not IPP. Samsung C&amp;T has won every major contract. Kahramaa Grade A licensing is the gate. What foreign EPCs actually need to know about market entry. Brief in progress.</description>
-    </item>
-
-    <item>
-      <title>Saudi Arabia's Hydrogen Corridor: NEOM, SPARK, and the $5B Question</title>
-      <link>https://arabiangrid.com/intelligence.html</link>
-      <guid isPermaLink="false">ks-hydrogen-corridor-2026</guid>
-      <pubDate>Mon, 02 Jun 2026 00:00:00 +0000</pubDate>
-      <category>Hydrogen</category>
-      <category>KSA</category>
-      <description>NEOM's 2.2 GW electrolyser, ACWA Power's ammonia offtake strategy, and the regulatory vacuum that still defines Saudi green hydrogen project finance. Brief in progress.</description>
-    </item>
-
-    <item>
-      <title>Bahrain Steel 110 MWp: What a Landmark Deal Teaches About C&amp;I Solar in the Gulf</title>
-      <link>https://arabiangrid.com/intelligence.html</link>
-      <guid isPermaLink="false">bahrain-steel-110mwp</guid>
-      <pubDate>Mon, 02 Jun 2026 00:00:00 +0000</pubDate>
-      <category>Solar</category>
-      <category>GCC</category>
-      <description>Ground-mounted and rooftop hybrid, long-term O&amp;M, and the offtaker negotiation dynamics that made this one of the most significant C&amp;I solar contracts in Bahrain's history. Brief in progress.</description>
-    </item>
-
   </channel>
 </rss>
